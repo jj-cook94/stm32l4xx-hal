@@ -525,7 +525,7 @@ use crate::gpio::gpioc::{PC0, PC1};
 
 pins!(I2C1, AF4,
     SCL: [PA9, PB6],
-    SDA: [PA10, PB7]);
+    SDA: [PA10, PB7, PB9]);
 
 pins!(I2C2, AF4, SCL: [PB10], SDA: [PB11]);
 
